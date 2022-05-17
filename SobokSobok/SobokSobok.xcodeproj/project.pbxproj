@@ -90,6 +90,8 @@
 		BDA400192833F16D0046627A /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA400182833F16D0046627A /* ScheduleViewController.swift */; };
 		BDA4001E28340D1F0046627A /* FriendNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA4001D28340D1F0046627A /* FriendNameView.swift */; };
 		BDA400202834100A0046627A /* CalendarTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA4001F2834100A0046627A /* CalendarTopView.swift */; };
+		BDA40022283430800046627A /* ScheduleViewController+FSCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA40021283430800046627A /* ScheduleViewController+FSCalendar.swift */; };
+		BDA40024283430980046627A /* ScheduleViewController+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA40023283430980046627A /* ScheduleViewController+CollectionView.swift */; };
 		BDC83B3C2798CAAD009C52A1 /* StickerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC83B3B2798CAAD009C52A1 /* StickerService.swift */; };
 		BDC83B3E2798CC8D009C52A1 /* StickerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC83B3D2798CC8D009C52A1 /* StickerAPI.swift */; };
 		BDC83B412798CD2C009C52A1 /* Sticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC83B402798CD2C009C52A1 /* Sticker.swift */; };
@@ -292,6 +294,8 @@
 		BDA400182833F16D0046627A /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
 		BDA4001D28340D1F0046627A /* FriendNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendNameView.swift; sourceTree = "<group>"; };
 		BDA4001F2834100A0046627A /* CalendarTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTopView.swift; sourceTree = "<group>"; };
+		BDA40021283430800046627A /* ScheduleViewController+FSCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScheduleViewController+FSCalendar.swift"; sourceTree = "<group>"; };
+		BDA40023283430980046627A /* ScheduleViewController+CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScheduleViewController+CollectionView.swift"; sourceTree = "<group>"; };
 		BDC83B3B2798CAAD009C52A1 /* StickerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerService.swift; sourceTree = "<group>"; };
 		BDC83B3D2798CC8D009C52A1 /* StickerAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerAPI.swift; sourceTree = "<group>"; };
 		BDC83B402798CD2C009C52A1 /* Sticker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sticker.swift; sourceTree = "<group>"; };
@@ -932,6 +936,8 @@
 			isa = PBXGroup;
 			children = (
 				BDA400182833F16D0046627A /* ScheduleViewController.swift */,
+				BDA40021283430800046627A /* ScheduleViewController+FSCalendar.swift */,
+				BDA40023283430980046627A /* ScheduleViewController+CollectionView.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -1729,6 +1735,7 @@
 				ECECEF96278C6C8A003D1454 /* AddMyMedicineView.swift in Sources */,
 				ECB845EB2795776F00433522 /* PillCount.swift in Sources */,
 				EC63A21327D37FDA006EBED7 /* PillDayTableViewCell.swift in Sources */,
+				BDA40022283430800046627A /* ScheduleViewController+FSCalendar.swift in Sources */,
 				EC0213F427CF51F700CF3569 /* PillTimeCollectionViewCell.swift in Sources */,
 				EC91946A282252530047893F /* PillNameView.swift in Sources */,
 				F635EEAB27C78B72009B9246 /* PillInfoView.swift in Sources */,
@@ -1763,6 +1770,7 @@
 				EC4BF2F127C0BEAC00B28F90 /* ButtonView.swift in Sources */,
 				BD9857A22791CA97009883FC /* CalendarViewController.swift in Sources */,
 				BDDAA5A92789BCD3000C0AF8 /* UserDefaultKey.swift in Sources */,
+				BDA40024283430980046627A /* ScheduleViewController+CollectionView.swift in Sources */,
 				9A3DF0B727981D8600D07A8C /* AddAccountService.swift in Sources */,
 				BDDAA5AE2789BCD3000C0AF8 /* Text.swift in Sources */,
 				9A3DF0962796B24D00D07A8C /* SignUpDataModel.swift in Sources */,
