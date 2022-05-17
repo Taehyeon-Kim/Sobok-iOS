@@ -88,6 +88,8 @@
 		BD9857A62791CE27009883FC /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = BD9857A52791CE27009883FC /* FSCalendar */; };
 		BD9857AA2791EB5C009883FC /* CalendarDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9857A92791EB5C009883FC /* CalendarDayCell.swift */; };
 		BDA400192833F16D0046627A /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA400182833F16D0046627A /* ScheduleViewController.swift */; };
+		BDA4001E28340D1F0046627A /* FriendNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA4001D28340D1F0046627A /* FriendNameView.swift */; };
+		BDA400202834100A0046627A /* CalendarTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA4001F2834100A0046627A /* CalendarTopView.swift */; };
 		BDC83B3C2798CAAD009C52A1 /* StickerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC83B3B2798CAAD009C52A1 /* StickerService.swift */; };
 		BDC83B3E2798CC8D009C52A1 /* StickerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC83B3D2798CC8D009C52A1 /* StickerAPI.swift */; };
 		BDC83B412798CD2C009C52A1 /* Sticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC83B402798CD2C009C52A1 /* Sticker.swift */; };
@@ -288,6 +290,8 @@
 		BD9857A12791CA97009883FC /* CalendarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarViewController.xib; sourceTree = "<group>"; };
 		BD9857A92791EB5C009883FC /* CalendarDayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDayCell.swift; sourceTree = "<group>"; };
 		BDA400182833F16D0046627A /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		BDA4001D28340D1F0046627A /* FriendNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendNameView.swift; sourceTree = "<group>"; };
+		BDA4001F2834100A0046627A /* CalendarTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTopView.swift; sourceTree = "<group>"; };
 		BDC83B3B2798CAAD009C52A1 /* StickerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerService.swift; sourceTree = "<group>"; };
 		BDC83B3D2798CC8D009C52A1 /* StickerAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerAPI.swift; sourceTree = "<group>"; };
 		BDC83B402798CD2C009C52A1 /* Sticker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sticker.swift; sourceTree = "<group>"; };
@@ -917,9 +921,35 @@
 		BDA400172833F14E0046627A /* Schedule */ = {
 			isa = PBXGroup;
 			children = (
-				BDA400182833F16D0046627A /* ScheduleViewController.swift */,
+				BDA4001C283409A50046627A /* Cells */,
+				BDA4001B2834099D0046627A /* Views */,
+				BDA4001A283409970046627A /* ViewControllers */,
 			);
 			path = Schedule;
+			sourceTree = "<group>";
+		};
+		BDA4001A283409970046627A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BDA400182833F16D0046627A /* ScheduleViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BDA4001B2834099D0046627A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BDA4001D28340D1F0046627A /* FriendNameView.swift */,
+				BDA4001F2834100A0046627A /* CalendarTopView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BDA4001C283409A50046627A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		BDC83B3A2798C978009C52A1 /* Sticker */ = {
@@ -1688,9 +1718,9 @@
 				F605027627BE18790010DEC8 /* EmptyView.swift in Sources */,
 				BDA400192833F16D0046627A /* ScheduleViewController.swift in Sources */,
 				EC02141027D27A3D00CF3569 /* PillDayView.swift in Sources */,
+				BDA400202834100A0046627A /* CalendarTopView.swift in Sources */,
 				BDC83B47279AE752009C52A1 /* AcceptPillModel.swift in Sources */,
 				9A3DF0AA2797252300D07A8C /* SearchNicknameViewController.swift in Sources */,
-				F6FC9800279A9A0A007B5AF2 /* WeekSelectViewController.swift in Sources */,
 				ECA6379C281D1AB100CA2291 /* AddPillThirdViewController.swift in Sources */,
 				F6EA7455281D1DAD00163B2E /* TimeView.swift in Sources */,
 				BDC83B4F279AE8FD009C52A1 /* NoticeAPI.swift in Sources */,
@@ -1705,6 +1735,7 @@
 				BDC83B412798CD2C009C52A1 /* Sticker.swift in Sources */,
 				EC950EF427909B5800A34027 /* AddMedicineThirdViewController.swift in Sources */,
 				BD51AE312790701800314A94 /* TypoStyle.swift in Sources */,
+				BDA4001E28340D1F0046627A /* FriendNameView.swift in Sources */,
 				EC02140B27D1E7D200CF3569 /* PillPeriodViewModel.swift in Sources */,
 				EC1C311C279428A500972404 /* MedicineInfoCollectionViewCell.swift in Sources */,
 				EC02140427D0F85000CF3569 /* PillTimeViewModel.swift in Sources */,
