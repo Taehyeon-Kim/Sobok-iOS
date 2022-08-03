@@ -32,7 +32,8 @@ final class ShareViewController: BaseViewController {
             $0.leading.bottom.trailing.equalToSuperview()
         }
         
-        scheduleViewController.friendName = "태현"
+        scheduleViewController.friendName = members.first?.memberName
+        scheduleViewController.tabType = .share
     }
   
     override func viewWillAppear(_ animated: Bool) {

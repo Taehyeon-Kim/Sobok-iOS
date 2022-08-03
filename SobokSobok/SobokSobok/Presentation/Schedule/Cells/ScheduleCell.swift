@@ -103,6 +103,10 @@ extension ScheduleCell {
             $0.top.equalToSuperview().inset(19)
         }
         
+        pillNameLabel.snp.makeConstraints {
+            $0.width.equalTo(166.adjustedWidth)
+        }
+        
         pillColorView.snp.makeConstraints {
             $0.width.height.equalTo(8)
         }

@@ -79,6 +79,8 @@ final class ScheduleViewController: BaseViewController {
                                                                environment: .development)
     let stickerManageer: StickerServiceable = StickerManager(apiService: APIManager(),
                                                              environment: .development)
+    
+    var tabType: TabBarItem = .home
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -186,6 +188,11 @@ extension ScheduleViewController {
         collectionView.register(
             MainScheduleCell.self,
             forCellWithReuseIdentifier: MainScheduleCell.reuseIdentifier
+        )
+        
+        collectionView.register(
+            ShareScheduleCell.self,
+            forCellWithReuseIdentifier: ShareScheduleCell.reuseIdentifier
         )
         
         collectionView.register(
