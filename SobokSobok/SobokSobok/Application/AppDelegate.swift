@@ -29,6 +29,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         FirebaseApp.configure()
         setUserNotification()
         application.registerForRemoteNotifications()
+        registerAnalyticsProvider()
         
         return true
     }

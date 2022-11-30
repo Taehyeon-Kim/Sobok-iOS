@@ -44,6 +44,13 @@
 		9ADEBC512794213000B13417 /* CompleteSignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ADEBC4F2794213000B13417 /* CompleteSignUpViewController.xib */; };
 		9AF64AD227917952004D4D64 /* SetNickNameVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF64AD027917951004D4D64 /* SetNickNameVIewController.swift */; };
 		9AF64AD327917952004D4D64 /* SetNickNameVIewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AF64AD127917951004D4D64 /* SetNickNameVIewController.xib */; };
+		BD0520F829374F7C0070AEE7 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = BD0520F729374F7C0070AEE7 /* FirebaseAnalytics */; };
+		BD0520FA29374F7C0070AEE7 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BD0520F929374F7C0070AEE7 /* FirebaseAnalyticsSwift */; };
+		BD0520FC29374F7C0070AEE7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = BD0520FB29374F7C0070AEE7 /* FirebaseAuth */; };
+		BD0520FE29374F7C0070AEE7 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = BD0520FD29374F7C0070AEE7 /* FirebaseCrashlytics */; };
+		BD05210029374F7C0070AEE7 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = BD0520FF29374F7C0070AEE7 /* FirebaseMessaging */; };
+		BD052103293756460070AEE7 /* AnalyticsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD052102293756460070AEE7 /* AnalyticsProvider.swift */; };
+		BD05210529375A980070AEE7 /* FirebaseAnalyticsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD05210429375A980070AEE7 /* FirebaseAnalyticsProvider.swift */; };
 		BD0C707D2862060500CF452F /* ScheduleHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0C707C2862060500CF452F /* ScheduleHeaderView.swift */; };
 		BD0C707F2862273C00CF452F /* ScheduleDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0C707E2862273C00CF452F /* ScheduleDataSource.swift */; };
 		BD0C70812862274A00CF452F /* ScheduleViewController+FSCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0C70802862274A00CF452F /* ScheduleViewController+FSCalendar.swift */; };
@@ -103,8 +110,6 @@
 		BD64F8F22788B488009249D0 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BD64F8ED2788B487009249D0 /* Pretendard-SemiBold.otf */; };
 		BD64F8F32788B488009249D0 /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BD64F8EE2788B487009249D0 /* Pretendard-Regular.otf */; };
 		BD64F8F42788B488009249D0 /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = BD64F8EF2788B488009249D0 /* Pretendard-ExtraLight.otf */; };
-		BD65721528AA6C6F00A0623A /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = BD65721428AA6C6F00A0623A /* FirebaseAnalytics */; };
-		BD65721728AA6C6F00A0623A /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = BD65721628AA6C6F00A0623A /* FirebaseMessaging */; };
 		BD65721928AA708300A0623A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD65721828AA708300A0623A /* GoogleService-Info.plist */; };
 		BD67B63B2860CF4900F1B96A /* ScheduleEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD67B63A2860CF4900F1B96A /* ScheduleEmptyView.swift */; };
 		BD7120E92796A61A0068B981 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7120E82796A61A0068B981 /* Schedule.swift */; };
@@ -325,6 +330,8 @@
 		9ADEBC4F2794213000B13417 /* CompleteSignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompleteSignUpViewController.xib; sourceTree = "<group>"; };
 		9AF64AD027917951004D4D64 /* SetNickNameVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetNickNameVIewController.swift; sourceTree = "<group>"; };
 		9AF64AD127917951004D4D64 /* SetNickNameVIewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SetNickNameVIewController.xib; sourceTree = "<group>"; };
+		BD052102293756460070AEE7 /* AnalyticsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsProvider.swift; sourceTree = "<group>"; };
+		BD05210429375A980070AEE7 /* FirebaseAnalyticsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAnalyticsProvider.swift; sourceTree = "<group>"; };
 		BD0C707C2862060500CF452F /* ScheduleHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleHeaderView.swift; sourceTree = "<group>"; };
 		BD0C707E2862273C00CF452F /* ScheduleDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleDataSource.swift; sourceTree = "<group>"; };
 		BD0C70802862274A00CF452F /* ScheduleViewController+FSCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScheduleViewController+FSCalendar.swift"; sourceTree = "<group>"; };
@@ -563,17 +570,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD772D4F28B72BF7006CBD6B /* KakaoSDKAuth in Frameworks */,
-				BD65721728AA6C6F00A0623A /* FirebaseMessaging in Frameworks */,
+				BD0520FC29374F7C0070AEE7 /* FirebaseAuth in Frameworks */,
 				EC02140027CFAFC700CF3569 /* RxCocoa in Frameworks */,
 				BD515E8F27878093003BD5A4 /* IQKeyboardManagerSwift in Frameworks */,
 				EC02140227CFAFC700CF3569 /* RxSwift in Frameworks */,
+				BD0520FA29374F7C0070AEE7 /* FirebaseAnalyticsSwift in Frameworks */,
+				BD0520F829374F7C0070AEE7 /* FirebaseAnalytics in Frameworks */,
 				BDFE75DE278786AE00014BE1 /* Then in Frameworks */,
 				EC950EF027906F0C00A34027 /* Lottie in Frameworks */,
+				BD05210029374F7C0070AEE7 /* FirebaseMessaging in Frameworks */,
 				BD9857A62791CE27009883FC /* FSCalendar in Frameworks */,
-				BD65721528AA6C6F00A0623A /* FirebaseAnalytics in Frameworks */,
 				BD515E8C27877FAD003BD5A4 /* Kingfisher in Frameworks */,
 				BD772D5128B72BF7006CBD6B /* KakaoSDKUser in Frameworks */,
 				BD515E9527878114003BD5A4 /* EasyKit in Frameworks */,
+				BD0520FE29374F7C0070AEE7 /* FirebaseCrashlytics in Frameworks */,
 				BD515E8927877F9C003BD5A4 /* SnapKit in Frameworks */,
 				BD515E8327877F0E003BD5A4 /* Moya in Frameworks */,
 			);
@@ -661,6 +671,15 @@
 				9AB833F3288972440040FC2A /* SettingViewController.xib */,
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		BD052101293756170070AEE7 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				BD052102293756460070AEE7 /* AnalyticsProvider.swift */,
+				BD05210429375A980070AEE7 /* FirebaseAnalyticsProvider.swift */,
+			);
+			path = Analytics;
 			sourceTree = "<group>";
 		};
 		BD2C8B3A27953B7300B1F59D /* PagerTab */ = {
@@ -782,6 +801,7 @@
 		BD515E4D27877569003BD5A4 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				BD052101293756170070AEE7 /* Analytics */,
 				ECAF4D25284F3B1300B12DA7 /* Helper */,
 				BD515E53278775FA003BD5A4 /* DesignSystem */,
 				BD515E5427877601003BD5A4 /* NameSpace */,
@@ -1916,10 +1936,13 @@
 				BD9857A52791CE27009883FC /* FSCalendar */,
 				EC0213FF27CFAFC700CF3569 /* RxCocoa */,
 				EC02140127CFAFC700CF3569 /* RxSwift */,
-				BD65721428AA6C6F00A0623A /* FirebaseAnalytics */,
-				BD65721628AA6C6F00A0623A /* FirebaseMessaging */,
 				BD772D4E28B72BF7006CBD6B /* KakaoSDKAuth */,
 				BD772D5028B72BF7006CBD6B /* KakaoSDKUser */,
+				BD0520F729374F7C0070AEE7 /* FirebaseAnalytics */,
+				BD0520F929374F7C0070AEE7 /* FirebaseAnalyticsSwift */,
+				BD0520FB29374F7C0070AEE7 /* FirebaseAuth */,
+				BD0520FD29374F7C0070AEE7 /* FirebaseCrashlytics */,
+				BD0520FF29374F7C0070AEE7 /* FirebaseMessaging */,
 			);
 			productName = SobokSobok;
 			productReference = BD515E35278770C5003BD5A4 /* SobokSobok.app */;
@@ -1959,8 +1982,8 @@
 				EC950EEE27906F0B00A34027 /* XCRemoteSwiftPackageReference "lottie-ios" */,
 				BD9857A42791CE27009883FC /* XCRemoteSwiftPackageReference "FSCalendar" */,
 				EC0213FE27CFAFC700CF3569 /* XCRemoteSwiftPackageReference "RxSwift" */,
-				BD65721328AA6C6F00A0623A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				BD772D4D28B72BF7006CBD6B /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */,
+				BD0520F629374F7B0070AEE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = BD515E36278770C5003BD5A4 /* Products */;
 			projectDirPath = "";
@@ -2111,6 +2134,7 @@
 				F61CDD5A28B8D0CC00D6BBCC /* EditFriendNicknameModel.swift in Sources */,
 				F6EA7457281D919000163B2E /* NavigationBarView.swift in Sources */,
 				BDDF7721289A952B0096196B /* StickerEndPoint.swift in Sources */,
+				BD05210529375A980070AEE7 /* FirebaseAnalyticsProvider.swift in Sources */,
 				9A3DF09227966A3A00D07A8C /* SignAPI.swift in Sources */,
 				F60BAEB7279B3E690012707C /* SplashView.swift in Sources */,
 				ECF96BE82798F0D700B5A32C /* PillLimitViewController.swift in Sources */,
@@ -2176,6 +2200,7 @@
 				BD515E72278778F9003BD5A4 /* SampleViewController.swift in Sources */,
 				EC7E85C128B7BAEE00AF1A65 /* PillEditManager.swift in Sources */,
 				ECF96BE62798EFB400B5A32C /* PillLimitView.swift in Sources */,
+				BD052103293756460070AEE7 /* AnalyticsProvider.swift in Sources */,
 				ECCF6EE028200AA200D6138A /* AddPillFooterView.swift in Sources */,
 				F61CDD5428B856AB00D6BBCC /* MyInfoViewController+Network.swift in Sources */,
 				9AB833F4288972440040FC2A /* SettingViewController.swift in Sources */,
@@ -2515,6 +2540,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		BD0520F629374F7B0070AEE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
 		BD515E8127877F0E003BD5A4 /* XCRemoteSwiftPackageReference "Moya" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Moya/Moya.git";
@@ -2553,14 +2586,6 @@
 			requirement = {
 				branch = master;
 				kind = branch;
-			};
-		};
-		BD65721328AA6C6F00A0623A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 9.0.0;
 			};
 		};
 		BD772D4D28B72BF7006CBD6B /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */ = {
@@ -2606,6 +2631,31 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		BD0520F729374F7C0070AEE7 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD0520F629374F7B0070AEE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		BD0520F929374F7C0070AEE7 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD0520F629374F7B0070AEE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		BD0520FB29374F7C0070AEE7 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD0520F629374F7B0070AEE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		BD0520FD29374F7C0070AEE7 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD0520F629374F7B0070AEE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		BD0520FF29374F7C0070AEE7 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD0520F629374F7B0070AEE7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
 		BD515E8227877F0E003BD5A4 /* Moya */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = BD515E8127877F0E003BD5A4 /* XCRemoteSwiftPackageReference "Moya" */;
@@ -2630,16 +2680,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = BD515E9327878114003BD5A4 /* XCRemoteSwiftPackageReference "EasyKit" */;
 			productName = EasyKit;
-		};
-		BD65721428AA6C6F00A0623A /* FirebaseAnalytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = BD65721328AA6C6F00A0623A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
-		};
-		BD65721628AA6C6F00A0623A /* FirebaseMessaging */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = BD65721328AA6C6F00A0623A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseMessaging;
 		};
 		BD772D4E28B72BF7006CBD6B /* KakaoSDKAuth */ = {
 			isa = XCSwiftPackageProductDependency;
